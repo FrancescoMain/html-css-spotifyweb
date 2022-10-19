@@ -29,6 +29,33 @@ body {
 
 }
 
+a {
+
+    text-decoration: none;
+    color: #717171;
+    
+}
+
+.flex {
+
+    display: flex;
+    align-items: center;
+
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+.margin20{
+
+    margin: 20px;
+
+}
+
+
 /* web app rules  */
 
 .flex-container {
@@ -78,18 +105,13 @@ body {
 
 }
 
-.left-menu{
-
-    margin: 20px;
-    line-height: 35px;
-
-}
 
 .left-menu-container {
 
     display: flex;
     font-size: 0.8rem;
     font-weight: 600;
+    line-height: 35px;
 
 }
 
@@ -115,6 +137,29 @@ body {
 
 }
 
+li h3.focussed {
+
+    margin: 15px 0;
+    font-size: 0.9rem;
+
+}
+
+.plus{
+
+    color: #a3a3a3;
+    margin-right: 10px;
+
+}
+
+ul.margin20.none li {
+
+    line-height: 35px;
+
+}
+
+
+
+
 @media  screen and (max-width: 350px) {
 
 
@@ -122,6 +167,9 @@ body {
     #navigation {
 
         width: 50px;
+        display: flex;
+        flex-direction: column;
+      
 
     }
 
