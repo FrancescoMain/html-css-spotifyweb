@@ -55,6 +55,13 @@ ul {
 
 }
 
+img {
+
+    max-width: 100%;
+
+}
+
+
 
 /* web app rules  */
 
@@ -69,6 +76,7 @@ ul {
 
     background-color: #141922;
     width: calc(100% - 230px);
+    overflow: auto;
 
 }
 
@@ -205,6 +213,48 @@ ul.margin20.none li {
 
     overflow: auto;
     height: 900px;
+
+}
+
+.recently {
+
+    margin: 30px 20px;
+
+}
+
+.recently h2 {
+
+    color: white;
+
+}
+
+.album-cont {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+.album {
+
+    width: 170px;
+    line-height: 25px;
+    margin: 0 10px;
+
+}
+
+.album h3 {
+
+    color: white;
+    text-align: center;
+
+}
+
+.album h4 {
+
+    text-align: center;
+    font-size: 0.7rem;
 
 }
 
