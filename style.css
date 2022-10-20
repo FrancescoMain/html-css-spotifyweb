@@ -94,6 +94,9 @@ ul {
 
     background-color: #000000;
     width: 230px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -159,6 +162,51 @@ ul.margin20.none li {
 
 
 
+.left-menu-down {
+
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.fa-circle-down {
+
+    margin-right: 5px ;
+
+}
+
+.line {
+
+    border: 1px #717171 solid;
+    margin: 10px 0;
+
+}
+
+#profile-img-cont {
+
+    width: 20px;
+    height: 20px;
+    background-color: #6d6d6d;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 5px;
+
+}
+
+#profile-svg {
+
+    max-width: 100%;
+
+}
+
+.playlist {
+
+    overflow: auto;
+
+}
+
 
 @media  screen and (max-width: 350px) {
 
@@ -189,13 +237,26 @@ ul.margin20.none li {
 
         text-align: center;
         margin: 0;
-        line-height: 20px;
 
     }
 
     .left-menu-container {
 
         display: block;
+
+    }
+
+    .left-menu-down {
+
+        height: 100%;
+        align-items: center;
+
+    }
+
+    .fa-circle-down {
+
+        margin-bottom: 16px;
+        font-size: 0.7rem;
 
     }
 
