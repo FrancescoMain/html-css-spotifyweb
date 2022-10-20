@@ -216,15 +216,22 @@ ul.margin20.none li {
 
 }
 
-.recently {
+.centre {
 
     margin: 30px 20px;
 
 }
 
-.recently h2 {
+.centre h2 {
 
     color: white;
+
+}
+
+.centre h4 {
+
+    margin-top: 10px;
+    font-size: 0.7rem;
 
 }
 
@@ -256,6 +263,13 @@ ul.margin20.none li {
     text-align: center;
     font-size: 0.7rem;
 
+}
+
+.album-radius {
+
+    border-radius: 100%;
+    overflow: hidden;
+    
 }
 
 /* main section  */
