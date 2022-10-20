@@ -204,11 +204,73 @@ ul.margin20.none li {
 .playlist {
 
     overflow: auto;
+    height: 900px;
+
+}
+
+/* main section  */
+
+
+.fixed-top {
+
+    width: calc(100% - 230px);
+    height: 90px;
+    background-color: #080b1293;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 20; 
+    
+}
+
+.button {
+
+    border: white 2px solid;
+    border-radius: 25px;
+    color: white;
+    font-size: 0.6rem;
+    margin-right: 10px;
+
+}
+
+.button h2 {
+
+    padding: 10px 40px;
+    text-align: center;
+
+}
+
+.main-nav li {
+
+    margin-right: 12px;
+    font-weight: 700;
+    font-size: 0.8rem;
+
+}
+
+nav {
+
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 110px;
+    align-items: center;
+    line-height: 25px;
+
+}
+
+.line-green{
+
+    border-top: 2px greenyellow solid;
+    margin: 10px 0;
+    width: 30px;
+    margin: 0 auto;
 
 }
 
 
-@media  screen and (max-width: 350px) {
+@media  screen and (max-width: 466px) {
 
 
     /* navigation  */
@@ -269,6 +331,12 @@ ul.margin20.none li {
     }
 
     #mainsection {
+
+        width: calc(100% - 50px);
+
+    }
+
+    .fixed-top {
 
         width: calc(100% - 50px);
 
