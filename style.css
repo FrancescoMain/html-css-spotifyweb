@@ -242,6 +242,14 @@ ul.margin20.none li {
 
 }
 
+.main-nav {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
 .main-nav li {
 
     margin-right: 12px;
@@ -252,10 +260,7 @@ ul.margin20.none li {
 
 nav {
 
-    justify-content: center;
-    flex-wrap: wrap;
     margin-top: 110px;
-    align-items: center;
     line-height: 25px;
 
 }
@@ -263,7 +268,6 @@ nav {
 .line-green{
 
     border-top: 2px greenyellow solid;
-    margin: 10px 0;
     width: 30px;
     margin: 0 auto;
 
