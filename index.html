@@ -41,7 +41,7 @@
                 </section>
                 
                 <!-- playlist     -->
-                <h3 class="playlist-title">PLAYLIST</h3>
+                <h3 class="playlist-title none">PLAYLIST</h3>
                 <div class="playlist">
                     <ul class="margin20 none">    
                        <li> 
@@ -132,42 +132,73 @@
                     <div class="album-cont">
                         <a href="">
                             <div class="album">
-                                <img src="img/metal_lifting.jpg" alt="">
+                                <div class="album-img-cont">
+                                    <img src="img/metal_lifting.jpg" alt="">
+                                    <div class="album-hover">
+                                        <div class="cent-play"><i class="fa-solid fa-circle-play fa-3x"></i></div>
+                                    </div>
+                                </div>
+                                
                                 <h3>Title</h3>
                                 <h4>Subtitle</h4>
                             </div>
                         </a>
                         <a href="">
                             <div class="album">
-                                <img src="img/metal_lifting.jpg" alt="">
+                                <div class="album-img-cont">
+                                    <img src="img/metal_lifting.jpg" alt="">
+                                    <div class="album-hover">
+                                        <div class="cent-play"><i class="fa-solid fa-circle-play fa-3x"></i></div>
+                                    </div>
+                                </div>
                                 <h3>Title</h3>
                                 <h4>Subtitle</h4>
                             </div>
                         </a>
                         <a href="">
                             <div class="album">
-                                <img src="img/metal_lifting.jpg" alt="">
+                                <div class="album-img-cont">
+                                    <img src="img/metal_lifting.jpg" alt="">
+                                    <div class="album-hover">
+                                        <div class="cent-play"><i class="fa-solid fa-circle-play fa-3x"></i></div>
+                                    </div>
+                                </div>
                                 <h3>Title</h3>
                                 <h4>Subtitle</h4>
                             </div>
                         </a>
                         <a href="">
                             <div class="album">
-                                <img src="img/metal_lifting.jpg" alt="">
+                                <div class="album-img-cont">
+                                    <img src="img/metal_lifting.jpg" alt="">
+                                    <div class="album-hover">
+                                        <div class="cent-play"><i class="fa-solid fa-circle-play fa-3x"></i></div>
+                                    </div>
+                                </div>
                                 <h3>Title</h3>
                                 <h4>Subtitle</h4>
                             </div>
                         </a>
                         <a href="">
                             <div class="album">
-                                <img src="img/metal_lifting.jpg" alt="">
+                                <div class="album-img-cont">
+                                    <img src="img/metal_lifting.jpg" alt="">
+                                    <div class="album-hover">
+                                        <div class="cent-play"><i class="fa-solid fa-circle-play fa-3x"></i></div>
+                                    </div>
+                                </div>
                                 <h3>Title</h3>
                                 <h4>Subtitle</h4>
                             </div>
                         </a>
                         <a href="">
                             <div class="album">
-                                <img src="img/metal_lifting.jpg" alt="">
+                                <div class="album-img-cont">
+                                    <img src="img/metal_lifting.jpg" alt="">
+                                    <div class="album-hover">
+                                        <div class="cent-play"><i class="fa-solid fa-circle-play fa-3x"></i></div>
+                                    </div>
+                                </div>
                                 <h3>Title</h3>
                                 <h4>Subtitle</h4>
                             </div>
@@ -186,13 +217,23 @@
                     <div class="album-cont">
                         <a href="">
                             <div class="album">
-                                <img src="img/metal_lifting.jpg" alt="">
+                                <div class="album-img-cont">
+                                    <img src="img/metal_lifting.jpg" alt="">
+                                    <div class="album-hover">
+                                        <div class="cent-play"><i class="fa-solid fa-circle-play fa-3x"></i></div>
+                                    </div>
+                                </div>
                                 <h3>Title</h3>
                             </div>
                         </a>
                         <a href="">
                             <div class="album">
-                                <img src="img/metal_lifting.jpg" alt="">
+                                <div class="album-img-cont">
+                                    <img src="img/metal_lifting.jpg" alt="">
+                                    <div class="album-hover">
+                                        <div class="cent-play"><i class="fa-solid fa-circle-play fa-3x"></i></div>
+                                    </div>
+                                </div>
                                 <h3>Title</h3>
                             </div>
                         </a>
@@ -242,26 +283,33 @@
                     <a href=""><h5 class="focussed">Sinister</h5></a>
                     <h6>Brano Nome</h6>
                 </div>
-                <a href=""><i class="fa-regular fa-heart"></i></a>
-                <a href=""><i class="fa-regular fa-folder"></i></a>
+                <div>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-regular fa-folder"></i></a>
+                </div>
+
             </div>
 
             <!-- player mid  -->
             <div class="player-mid">
                 <!-- buttons -->
                 <div class="buttons-cont">
-                    <i class="fa-solid fa-shuffle"></i>
-                    <i class="fa-solid fa-backward-step"></i>
-                    <i class="fa-solid fa-play"></i>
-                    <i class="fa-solid fa-forward-step"></i>
-                    <i class="fa-solid fa-arrow-rotate-right"></i>
+                    <i class="fa-solid fa-shuffle fa-xs"></i>
+                    <i class="fa-solid fa-backward-step fa-xs"></i>
+                    <i class="fa-solid fa-play fa-xs"></i>
+                    <i class="fa-solid fa-forward-step fa-xs"></i>
+                    <i class="fa-solid fa-arrow-rotate-right fa-xs"></i>
                 </div>
 
                 <!-- time bar  -->
                 <div class="time-bar">
                     <span>0:25</span>
                     <div class="bar-cont big">
-                        <div class="full"><i class="fa-solid fa-circle"></i></div>
+                        <div class="full">
+                            <div class="hover-circle">
+                                <i class="fa-solid fa-circle circle-voice"></i>
+                            </div>
+                        </div>
                     </div>
                     <span>4:30</span>
                 </div>
@@ -269,11 +317,15 @@
 
             <!-- right player  -->
             <div class="right-player">
-                <i class="fa-solid fa-bars"></i>
-                <i class="fa-solid fa-tv"></i>
-                <i class="fa-solid fa-volume-high"></i>
+                <i class="fa-solid fa-bars fa-xs"></i>
+                <i class="fa-solid fa-tv fa-xs"></i>
+                <i class="fa-solid fa-volume-high fa-xs"></i>
                 <div class="bar-cont small">
-                    <div class="full"><i class="fa-solid fa-circle circle-voice"></i></div>
+                    <div class="full">
+                        <div class="hover-circle xs">
+                            <i class="fa-solid fa-circle circle-voice"></i>
+                        </div>
+                    </div>
                 </div>
 
             </div>

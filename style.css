@@ -272,6 +272,7 @@ ul.margin20.none li {
 
     text-align: center;
     font-size: 0.7rem;
+    color:#6d6d6d;
 
 }
 
@@ -366,13 +367,13 @@ nav {
 
 .title {
 
-    margin-right: 50px;
+    margin-right: 16px;
 
 }
 
 .fa-heart {
 
-    margin-right: 20px;
+    margin-right: 8px;
 
 }
 
@@ -382,24 +383,35 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 30%;
+
+}
+
+.buttons-cont {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .buttons-cont i{
 
-    margin-right: 20px;
+    margin-right: 8px;
     color: white;
-
+    font-size: 8px;
+    cursor: pointer;
+  
 }
 
 .fa-play {
 
     border: 2px white solid;
     border-radius: 100%;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     text-align: center;
-    padding-top: 2px;
+    padding-top: 7px;
     padding-left: 2px;
 
 }
@@ -410,6 +422,7 @@ nav {
     display: flex;
     align-items: center;
     margin: 5px;
+    max-width: 100%;
 
 }
 
@@ -441,15 +454,15 @@ nav {
 
     position: relative;
     bottom: 7px;
-    left: 5px;
+    left: 5px;  
 
 }
 
-.circle-voice {
 
-    position: relative;
-    bottom: 7px;
-    left: 16px;
+
+.bar-cont:hover .hover-circle {
+
+    display: block;
 
 }
 
@@ -461,7 +474,7 @@ nav {
 
 .small {
 
-    width: 100px;
+    width: 70px;
 
     
 }
@@ -469,7 +482,7 @@ nav {
 .time-bar span {
 
     margin: 0 10px;
-
+    font-size: 0.6rem;
 }
 
 .right-player {
@@ -482,8 +495,83 @@ nav {
 .right-player i {
 
     margin-right: 10px;
+    font-size: 8px;
+    max-width: 20%;
 
 }
+
+.album:hover .album-hover {
+
+    display: block;
+
+}
+
+.album-hover {
+
+    background-color: #00000098;
+    height: 170px;
+    width: 170px;
+    position: absolute;
+    top: 0;
+    display: none;
+ 
+
+}
+
+.cent-play {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.album-img-cont {
+
+    position: relative;
+
+}
+
+.button:hover {
+
+    padding: 10px 30px;
+
+}
+
+a:hover {
+
+    color: white;
+
+}
+
+i:hover {
+
+    color: white;
+
+}
+
+.flex:hover {
+
+    color: white;
+
+}
+
+.hover-circle {
+
+    display: none;
+    position: relative;
+    bottom: 1px;
+    left: 1px;
+
+}
+
+.xs {
+
+    left: 10px;
+    bottom: 6px;
+}
+
 @media  screen and (max-width: 530px) {
 
 
