@@ -660,5 +660,39 @@ i:hover {
         display: none;
 
     }
+
+    .album-cont {
+
+        justify-content: center;
+
+    }
+
+    .centre h2 {
+
+        text-align: center;
+    
+    }
+
+    .centre h4 {
+
+        text-align: center;
+
+    }
+    
+}
+
+@media screen and (max-height:570px ) {
+
+    .fixed-top {
+
+        display: none;
+
+    }
+
+    nav {
+
+        margin-top: 20px;
+
+    }
     
 }
