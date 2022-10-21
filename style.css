@@ -18,7 +18,7 @@ body {
 
 #totalecontainer {
 
-    height: 100vw;
+    height: 100vh;
     width: 100vw;
 
 }
@@ -262,6 +262,13 @@ ul.margin20.none li {
 }
 
 .album h3 {
+
+    color: white;
+    text-align: center;
+
+}
+
+.title {
 
     color: white;
     text-align: center;
@@ -641,6 +648,16 @@ i:hover {
     .fixed-top {
 
         width: calc(100% - 50px);
+
+    }
+    
+}
+
+@media screen and (max-width: 465px) {
+
+    .none-xs {
+
+        display: none;
 
     }
     
