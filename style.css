@@ -12,7 +12,7 @@
 body {
 
     font-family: 'Montserrat', sans-serif;
-    color: #717171;
+    color: #717171;  
 
 }
 
@@ -33,8 +33,17 @@ a {
 
     text-decoration: none;
     color: #717171;
+    transition: all 1s;
     
 }
+
+i {
+
+    transition: all 1s;
+
+}
+
+
 
 .flex {
 
@@ -268,7 +277,7 @@ ul.margin20.none li {
 
 }
 
-.title {
+.title-album {
 
     color: white;
     text-align: center;
@@ -314,6 +323,7 @@ ul.margin20.none li {
     color: white;
     font-size: 0.7rem;
     margin-right: 10px;
+    transition: all 2s;
 
 }
 
@@ -445,7 +455,7 @@ nav {
 .full {
 
     border: 2px #c2c2c2 solid;
-    width: 30%;
+    width: 0%;
     height: 0;
     border-radius: 2px;
     position: relative;
@@ -455,6 +465,7 @@ nav {
     justify-content: flex-end;
     color: white;
 
+
 }
 
 .fa-circle {
@@ -462,6 +473,13 @@ nav {
     position: relative;
     bottom: 7px;
     left: 5px;  
+
+}
+
+.anim {
+
+    animation: time;
+    animation-duration: 200s;
 
 }
 
@@ -521,6 +539,7 @@ nav {
     position: absolute;
     top: 0;
     display: none;
+    transition: all 2s;
  
 
 }
@@ -578,6 +597,7 @@ i:hover {
     left: 10px;
     bottom: 6px;
 }
+
 
 @media  screen and (max-width: 530px) {
 
@@ -695,4 +715,11 @@ i:hover {
 
     }
     
+}
+
+@keyframes time{
+    0%   {width: 0%;}
+    25%  {width: 25%;}
+    50%  {width: 50%;}
+    100% {width: 100%;}
 }
